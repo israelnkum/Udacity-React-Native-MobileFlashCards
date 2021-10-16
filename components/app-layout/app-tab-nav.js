@@ -4,7 +4,6 @@ import AddDeck from '../deck/add-deck'
 import DeckList from '../deck/deck-list'
 import { Ionicons } from '@expo/vector-icons'
 import { gray, primary, white } from '../../utils/colors'
-import { Platform } from 'react-native'
 
 const Tab = createBottomTabNavigator();
 const AppTabNav = () => {
@@ -22,7 +21,7 @@ const AppTabNav = () => {
 
                     return <Ionicons name={iconName} size={15} color={ focused ? primary : gray } />;
                 },
-                tabBarActiveTintColor: Platform.OS === 'ios' ? purple : primary,
+                tabBarActiveTintColor: primary,
                 tabBarsecondaryTintColor: gray,
                 tabBarStyle: {
                     height: 50,
