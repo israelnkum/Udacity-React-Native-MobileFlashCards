@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { FlatList } from 'react-native'
 import DeckItem from './deck-item'
 import { connect } from 'react-redux'
@@ -11,9 +11,6 @@ const DeckList = (props) => {
 
     );
 
-    // useEffect(() => {
-    //     console.log(Object.values(decks))
-    // }, [])
     return (
         Object.keys(decks).length <= 0 ?
             <NoData message={"Oops! You've not added any deck"}/> :

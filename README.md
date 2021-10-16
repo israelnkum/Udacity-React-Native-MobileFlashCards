@@ -21,3 +21,8 @@ https://www.linkedin.com/in/aankum/
 - Run `yarn start` to start the bundler.
 - Open the project in a React runtime to try it:
   - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
+
+## Platforms
+<p>
+The project has only been tested on Android
+</p>
