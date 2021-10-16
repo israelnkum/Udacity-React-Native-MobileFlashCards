@@ -24,5 +24,6 @@ https://www.linkedin.com/in/aankum/
 
 ## Platforms
 <p>
-The project has only been tested on Android
+The project has only been tested on Android, but
+it should work on iOS as well
 </p>
